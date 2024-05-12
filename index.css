@@ -1,0 +1,69 @@
+/* imagine you're building a collage with pictures and text. Normally, elements (pictures and text) would line up one below the other, just like how you write. */
+
+/* position: absolute; is like taking a picture (the element) out of line and sticking it anywhere on the collage (the webpage) using tape (relative to other positioned elements or the edge of the collage). You can put it on top of other pictures, hide it under some text, or anywhere you want! */
+/* position: relative; is like putting a tiny house (the element) on your note. It stays on the line you wrote it on (normal flow) but you can now say:
+
+Move the house a little to the right.
+Put it a bit higher on the line.
+Here's the key:
+
+It lets you slightly nudge an element around where it was originally placed in the text (normal flow).
+It doesn't take it completely out of line like some other positioning options. */
+    /* magine you're building a collage with pictures and text. Normally, elements (pictures and text) would line up one below the other, just like how you write. */
+
+/* position: absolute; is like taking a picture (the element) out of line and sticking it anywhere on the collage (the webpage) using tape (relative to other positioned elements or the edge of the collage). You can put it on top of other pictures, hide it under some text, or anywhere you want! */
+/* position: relative; is like putting a tiny house (the element) on your note. It stays on the line you wrote it on (normal flow) but you can now say /* magine you're building a collage with pictures and text. Normally, elements (pictures and text) would line up one below the other, just like how you write. */
+
+/* position: absolute; is like taking a picture (the element) out of line and sticking it anywhere on the collage (the webpage) using tape (relative to other positioned elements or the edge of the collage). You can put it on top of other pictures, hide it under some text, or anywhere you want! */
+/* position: relative; is like putting a tiny house (the element) on your note. It stays on the line you wrote it on (normal flow) but you can now say:
+
+Move the house a little to the right.
+Put it a bit higher on the line.
+Here's the key:
+
+It lets you slightly nudge an element around where it was originally placed in the text (normal flow).
+It doesn't take it completely out of line like some other positioning options. */
+.main{
+  background-color: #333;
+}
+#clockcontainer{  
+ position: relative;
+ margin: auto;
+ height: 40vw;
+ width: 40vw; 
+ 
+ /* changes here */
+ background-color: #777;
+ background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3ZNYTKb-PO7I7miuMvQ5zBZvcdwuP1cHijMQUQy1vf-J9N_BRcZdL8Jwy0SmA6TLclQ8&usqp=CAU");
+background-repeat: no-repeat;
+background-size: 40vw 40vw;
+}
+
+#hour, #minute, #second{
+ position: absolute;
+ background: black;
+ border-radius: 10px; 
+ transform-origin: bottom;
+}
+#hour{
+ width: 1.8%;
+ height: 25%;
+ top: 25%;
+ left: 48.85%;
+ opacity: 0.8;
+}
+#minute{
+ width: 1.6%;
+ height: 30%;
+ top: 19%;
+ left: 48.9%;
+ opacity: 0.8;
+}
+#second{
+ width: 1%;
+ height: 40%;
+ top: 9%;
+ left: 49.25%;
+ opacity: 0.8; 
+ 
+}
